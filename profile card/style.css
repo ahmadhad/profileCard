@@ -1,0 +1,128 @@
+/* google font*/
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Jomhuria', serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(44, 37, 37);
+    color:white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+
+    max-width: 370px;
+    width: 100%;
+    background-color:#fff;
+    position: relative;
+    
+}
+.card::before{
+    content: "";
+    position: absolute;
+    background-color: #3e70eb;
+    width:100%;
+    height: 150px;
+    top:0;
+    left:0;
+}
+.image{
+    margin-top:20px;
+position: relative;
+width:150px;
+height:150px;
+border-radius: 50%;
+background-color: rgb(72, 72, 190);
+padding:3px;
+margin-left: auto;
+margin-right: auto;
+}
+.image img{
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+width:100%;
+height:100%;
+border-radius: 50%;
+border:3px solid white;
+object-fit: cover;
+box-shadow: 4px 4px 4px rgb(0, 110, 255);
+}
+.profile-info{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: #333;
+}
+.profile-info .title{
+margin-top:20px;
+padding:0;
+}
+.profile-info .desc{
+margin:0;
+padding:0;
+
+}
+.social-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
+.social-buttons .button{
+    background-color:red;
+    width:25px;
+    height:25px;
+    padding:5px;
+    margin:0px 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:20px;
+
+}
+.buttons .button-buttons{
+border:none;
+color:#fff;
+font-size:14px;
+background-color:#5094d9;
+border-radius: 15px;
+margin-left:4px;
+padding:10px;
+font-weight: 600;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    margin:20px;
+    justify-content: space-between;
+    padding:20px;
+    font-weight:400;
+    color:#333;
+    font-weight: 600;
+}
+.stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 20px;
+    border-right:1px solid rgb(118, 138, 118);
+    
+}
+.stats .stat i{
+    margin-right:5px;
+}
